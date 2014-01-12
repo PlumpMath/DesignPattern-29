@@ -35,6 +35,12 @@ package factory.factoryMethod;
  * 另外，我也不关注ExportOperate的具体实现类中，是如何实现的，总之，我只关注ExportOperate中
  * 定义好的接口。
  * 
+ * 工厂模式里面的元素：
+ * 1.定义要实现的某个对象的接口，定义接口。如定义ExportFileApi。
+ * 2.根据接口来使用对象，而无需关注对象的具体实现如何。比如，定义ExportOpeate,
+ * 而ExportOpeate的操作过程是针对ExportFileApi定义的接口的。
+ * 3.要获取某个具体的实现对象，则要通过具体的工厂实现，比如，通过ExportTextFileOperate
+ * 
  */
 public class Client {
 
